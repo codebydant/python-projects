@@ -1,0 +1,5 @@
+docker
+base de datos
+no relacional base de datos mongo, redix, base de datos teoria
+contenerizacion
+qrm, 

@@ -1,0 +1,9 @@
+What to expect in the algorithmic coding test
+Before taking a test, it is important to understand what it evaluates and how it is graded. The grading rubric for the algorithmic coding test includes four categories:
+
+- Solving algorithmic problems, which covers classic algorithms and their complexities including sorting (e.g., insertion sort, bubble sort, quick sort, merge sort, etc.), searching (e.g., binary search, breadth-first search, depth-first search, Dijkstra’s algorithm, and A-star), and other computer science problems (e.g., matching, permutation, counting, tree traversal, etc.).
+
+- Using data structures, which encompasses ubiquitous data structures (e.g., lists/arrays, sets, maps/dictionaries, trees, graphs, linked lists, tuples, queues, stacks, and heaps) and formats (e.g., string, integers, floats, and the like). and objects used in computer science.
+
+- Applying coding methods, which spans coding methods used by engineers and scientists in their work. This includes algorithmic techniques (e.g., recursion, backtracking, divide & conquer, etc.), mechanisms like classes and inheritance, and miscellaneous practices such as decorator pattern, list comprehensions, exception handling, function composition, bit manipulation, plotting, importing packages, debugging, and the like.
+

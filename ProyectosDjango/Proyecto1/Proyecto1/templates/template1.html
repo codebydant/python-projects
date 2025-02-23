@@ -1,0 +1,17 @@
+<html>
+	<head>
+        <title>Template Example</title>
+    </head>
+	<body>
+		{% include "bar.html" %}
+		<h1> Hola, esta es mi primer plantilla 2 </h1>
+		<p>This is an example of a simple HTML page with one paragraph.</p>
+		<p>Probando nombre: {{name}} {{date}}</p>
+		<p><strong>Topics list</strong></p>
+		<ul>
+			{% for item in topics %}
+				<li>{{item}}</li>
+			{% endfor %}
+		</ul>
+	</body>
+</html>

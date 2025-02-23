@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+        {% block title %} <title>Template Padre</title> {% endblock %}
+    </head>
+	<body>
+		{% include "bar.html" %}
+		<h1> Este es el contenido comun template padre</h1>
+
+		{% block content %}
+		<h1> CONTENIDO TEMPLATE PADRE</h1>
+		{% endblock %}
+
+		<h3> Este tambien es el contenido comun template padre</h3>
+	</body>
+</html>

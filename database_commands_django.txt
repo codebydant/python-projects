@@ -1,0 +1,26 @@
+1. python manage.py makemigrations
+2. python manage.py migrate
+3. python manage.py shell
+
+from gestion_pedidos.models import Cliente
+cli = Cliente(nombre='daniel',direccion='hacienda el castillo',email='daniel.tobon@uao.edu.co',telefono='2489517')
+cli.save()
+
+cli = Cliente.objects.create(nombre='vanessa',direccion='bochalema',email='vanessis360@hotmail.com',telefono='1234567')
+cli3 = Cliente.objects.create(nombre='gloria',direccion='jamundi',email='gloria@hotmail.com',telefono='1234564')
+
+art1 = Articulos.objects.create(nombre='mesa',seccion='decoracion',precio=90)
+art2 = Articulos.objects.create(nombre='lampara',seccion='decoracion',precio=70)
+art3 = Articulos.objects.create(nombre='pantalon',seccion='confeccion',precio=45)
+art4 = Articulos.objects.create(nombre='destornillador',seccion='ferreteria',precio=35)
+art5 = Articulos.objects.create(nombre='balon',seccion='deportes',precio=25)
+art6 = Articulos.objects.create(nombre='raqueta',seccion='deportes',precio=105)
+art7 = Articulos.objects.create(nombre='muneca',seccion='jugueteria',precio=15)
+art8 = Articulos.objects.create(nombre='tren electrico',seccion='jugueteria',precio=135)
+
+4. Articulos.objects.filter(seccion='deportes')
+   Articulos.objects.filter(precio__gte=50).order_by('precio')	
+   
+5. python manage.py createsuperuser
+user: daniel
+pass: Danito_123456789
